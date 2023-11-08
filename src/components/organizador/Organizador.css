@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+
+h3{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+.box{
+    background-color: #476ECC;
+    width: 500px;
+    height: 100%px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    left: 35%;
+}
+
+label{
+    font-size: 20px;
+    color: white;
+    font-style: oblique;
+}
+
+button{
+   border-radius: 10px 10px 10px 10px;
+   width: 100px;
+   height: 35px;
+   background-color: rgb(37, 50, 126);
+   color: whitesmoke;
+   font-size: 15px;
+   
+}
+
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+input{
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+}
+
+.todo-list li {
+    height:50px;
+    border:5px solid rgb(39, 39, 184);
+    padding:5px;
+    box-sizing: border-box;
+    align-items: center;
+    width: 65%;
+    color: white;
+    font-size: 20px;
+  }
+ 
+li{
+    background-color: rgb(38, 38, 88);
+    width: 13em;  word-wrap: break-word;
+}
+
+.remove-btn{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 7%;
+    
+}
+  
